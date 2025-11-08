@@ -10,7 +10,8 @@ In this project I create simple LAN network with the following setup:
 
 
 
-<img width="2062" height="730" alt="image" src="https://github.com/user-attachments/assets/e5c0af05-0041-4974-beaf-851384dcfba9" />
+<img width="2078" height="822" alt="image" src="https://github.com/user-attachments/assets/9f0fb860-8721-4da8-9354-425948a38422" />
+
 
 
 
