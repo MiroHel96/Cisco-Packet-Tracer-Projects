@@ -81,5 +81,18 @@ I also configured hostnames for Router1 and Router2
 
 ## Static Routing 
 
+In this part I configure static rounting for R1 and R2. 
+
+#### R1
+To configure static routing for R1 is used the following command `ip route 192.168.2.0 255.255.255.0 10.10.10.2`. Destination address, subnet mask, Next-hop router's IP address. 
+
+
+<img width="1386" height="1412" alt="image" src="https://github.com/user-attachments/assets/5ecc101e-980a-4dd4-9219-e090f1f46be8" />
+
+#### R2 
+
+I used the same command for R2 `ip route 192.168.1.0 255.255.255.0 10.10.10.1`. 
+
+<img width="1394" height="1408" alt="image" src="https://github.com/user-attachments/assets/525233c9-29e8-4454-bb96-2f130df8b311" />
 
 
