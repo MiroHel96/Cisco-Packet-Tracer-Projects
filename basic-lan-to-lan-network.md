@@ -104,4 +104,8 @@ Configuring IP addresses for PC1 and PC2 is straight forward, I don't use DHCP t
 <img width="1396" height="1398" alt="image" src="https://github.com/user-attachments/assets/c64eb16e-c6ef-4766-b34e-2b87aed5c830" />
 
 
+## Testing network connectivity with ping. Pinging PC2 from PC1 is successfull, therefore conclusion is that the basic network works. 
+
+
+<img width="1394" height="1424" alt="image" src="https://github.com/user-attachments/assets/0e1aeb92-bebe-4a1a-b3b7-5cef26141622" />
 
