@@ -96,3 +96,11 @@ I used the same command for R2 `ip route 192.168.1.0 255.255.255.0 10.10.10.1`.
 <img width="1394" height="1408" alt="image" src="https://github.com/user-attachments/assets/525233c9-29e8-4454-bb96-2f130df8b311" />
 
 
+## Configuring IP addresses for PC1 and PC2
+
+Configuring IP addresses for PC1 and PC2 is straight forward, I don't use DHCP this time so I set static IP addresses for both devices. 
+
+<img width="1396" height="1398" alt="image" src="https://github.com/user-attachments/assets/c64eb16e-c6ef-4766-b34e-2b87aed5c830" />
+
+
+
