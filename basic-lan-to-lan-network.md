@@ -48,6 +48,20 @@ Network LAN3 - 10.10.10.0/30
 
 ## Router basic configuration
 
+### LAN3 Routers configuration
+
+In this part I configured IP addresses for my routers interfaces.
+
+Router1
+
+<img width="1400" height="1408" alt="image" src="https://github.com/user-attachments/assets/74c4c04e-f542-4288-b987-3f618ceabcd0" />
+
+Router2
+
+<img width="1394" height="1416" alt="image" src="https://github.com/user-attachments/assets/006c6479-3115-4d59-b702-f5839cbbe8ce" />
+
+I also configured hostnames for Router1 and Router2
+
 
 ## Switch basic configuartion 
 
