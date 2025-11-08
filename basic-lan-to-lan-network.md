@@ -9,7 +9,9 @@ In this project I create simple LAN network with the following setup:
 ## Network Topology 
 
 
-<img width="1960" height="690" alt="image" src="https://github.com/user-attachments/assets/f3f6479c-4e05-414f-9042-56ff947b8550" />
+
+<img width="2062" height="730" alt="image" src="https://github.com/user-attachments/assets/e5c0af05-0041-4974-beaf-851384dcfba9" />
+
 
 
 ## Connections
