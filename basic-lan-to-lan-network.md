@@ -28,7 +28,25 @@ Router1 to Router2 - G0/0 to G0/1
 
 ## Addressing Table 
 
-| Network | IP address | Device |
-| LAN1    | 192.168.1.0 | 
+Network - LAN1 - 192.168.1.0/24
+- PC1 - 192.168.1.10
+- Switch1 - 192.168.1.2
+- Router1 - 192.168.1.1
 
-  
+
+Network - LAN2 - 192.168.2.0/24
+- PC2 - 192.168.2.20
+- Switch2 - 192.168.1.2
+- Router1 - 192.168.2.1
+
+
+## Router basic configuration
+
+
+## Switch basic configuartion 
+
+
+## Static Routing 
+
+
+
