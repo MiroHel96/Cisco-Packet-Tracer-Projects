@@ -34,10 +34,14 @@ Network - LAN1 - 192.168.1.0/24
 - Router1 - 192.168.1.1
 
 
-Network - LAN2 - 192.168.2.0/24
+Network - LAN2 - 192.168.2.0/24 
 - PC2 - 192.168.2.20
 - Switch2 - 192.168.1.2
 - Router1 - 192.168.2.1
+
+Network LAN3 - 10.10.10.0/30 
+ - Router1 - 10.10.10.1
+ - Router2 - 10.10.10.2
 
 
 ## Router basic configuration
