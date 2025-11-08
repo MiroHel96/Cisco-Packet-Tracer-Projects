@@ -28,6 +28,7 @@ Router1 to Router2 - G0/0 to G0/1
 
 ## Addressing Table 
 
-
+| Network | IP address | Device |
+| LAN1    | 192.168.1.0 | 
 
   
