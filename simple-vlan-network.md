@@ -4,7 +4,8 @@ In this packet tracer project I create a simple LAN with 2 different VLANs `IT` 
 
 ## Network topology 
 
-<img width="876" height="1114" alt="image" src="https://github.com/user-attachments/assets/785f7366-a993-4d3a-a4be-30414046ca37" />
+<img width="810" height="1014" alt="image" src="https://github.com/user-attachments/assets/d5103b97-58ad-4242-9727-86404fd59112" />
+
 
 ## Addresses
 
