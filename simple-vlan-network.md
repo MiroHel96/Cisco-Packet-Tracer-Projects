@@ -12,10 +12,11 @@ I use /28 mask which means I have 16 addresses and 14 IPs for hosts:
 - `192.168.1.1` default gateway
 - `192.168.1.16` broadcast address
 - `192.168.1.2` SW1 management address
-- `192.168.1.3` SW2 management address 
+- `192.168.1.3` SW2 management address
+- `192.168.1.4` SW3 management address
 
 Hosts:
-- `192.168.1.4 - 192.168.1.14`
+- `192.168.1.5 - 192.168.1.14`
 
 
 
@@ -61,6 +62,12 @@ Default gateway
 
 ip default gateway 192.168.1.1 
 ```
+## SW3 
+
+Next I configured SW3 between SW1 and SW2 and connected router to it. I copied SW1 configuration and changed hostname and management IP address for it. 
+
+<img width="1272" height="212" alt="image" src="https://github.com/user-attachments/assets/7d6c8c8c-6211-43cd-ae1f-26a54431e87f" />
+
 
 ## Router basic configuration 
 
