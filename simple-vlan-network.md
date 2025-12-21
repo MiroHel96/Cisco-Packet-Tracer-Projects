@@ -47,6 +47,47 @@ Default gateway
 
 ip default gateway 192.168.1.1 
 ```
+
+## Router basic configuration 
+
+Next I configured Router1 basic configuration. 
+
+```
+Router configuration 
+
+configure terminal
+hostname R1
+
+enable secret superSecret
+
+line console 0
+password ubuntu
+login
+exit
+
+line vty 0 4
+password ubuntu
+login
+exit
+
+interface gigabitEthernet 0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
+
+
+ip route 0.0.0.0 0.0.0.0 192.168.1.254
+
+
+ip dhcp pool LAN
+network 192.168.1.0 255.255.255.0
+default-router 192.168.1.1
+dns-server 8.8.8.8
+exit
+
+```
+
+
 ## VLANS 
 
 In this part I create two VLANs for SW1 and SW2. The VLANs will be 10 `IT` and 20 `Marketing`. 
@@ -75,9 +116,7 @@ Creating a router on a stick method is the best model for this network. It uses 
 
 <img width="1264" height="262" alt="image" src="https://github.com/user-attachments/assets/954cb8bc-fd92-4e6e-8362-f9856c4e3b5e" />
 
-
- 
-
+<img width="1274" height="288" alt="image" src="https://github.com/user-attachments/assets/840a190d-2195-44c7-901e-2e4b57362c67" />
 
 
 
