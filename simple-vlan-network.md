@@ -68,6 +68,16 @@ Next I configured Marketing VLAN for SW2:
 
 ### Trunking ports for router on a stick method 
 
+Creating a router on a stick method is the best model for this network. It uses single link with trunking ports to deliver untagged traffic betwreen router and swtiches. I configured both SW1 and SW2 interfaces witg the following commands in both ends of the links:
+-`switchport mode trunking`
+-`switchport nonegotiate`
+
+
+<img width="1264" height="262" alt="image" src="https://github.com/user-attachments/assets/954cb8bc-fd92-4e6e-8362-f9856c4e3b5e" />
+
+
+ 
+
 
 
 
