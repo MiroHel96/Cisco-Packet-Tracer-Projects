@@ -49,13 +49,26 @@ ip default gateway 192.168.1.1
 ```
 ## VLANS 
 
-In this part I create two VLANs for SW1 and SW2. The VLANs will be `IT` and `Marketing`. 
+In this part I create two VLANs for SW1 and SW2. The VLANs will be 10 `IT` and 20 `Marketing`. 
 
+<img width="1280" height="240" alt="image" src="https://github.com/user-attachments/assets/9438c9b5-2790-48f9-9515-cea014de8a93" />
 
+I configured SW1 FastEthernet 0/1 - 3 ports with the following commands: 
+- `switchport mode access`
+- `switchport access vlan 10`
 
+<img width="1266" height="864" alt="image" src="https://github.com/user-attachments/assets/a527868e-7774-4fee-8f49-f9ac7dbec684" />
+
+Next I configured Marketing VLAN for SW2:
+- `switchport mode access`
+- `switchport access vlan 20`
+
+<img width="1276" height="372" alt="image" src="https://github.com/user-attachments/assets/71341978-5103-483e-b055-76234ab1a356" />
 
 
 ### Trunking ports for router on a stick method 
+
+
 
 
 ## Switch Security 
