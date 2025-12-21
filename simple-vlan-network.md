@@ -6,6 +6,20 @@ In this packet tracer project I create a simple LAN with 2 different VLANs `IT` 
 
 <img width="876" height="1114" alt="image" src="https://github.com/user-attachments/assets/785f7366-a993-4d3a-a4be-30414046ca37" />
 
+## Addresses
+
+I use /28 mask which means I have 16 addresses and 14 IPs for hosts:
+-`192.168.1.1` default gateway
+-`192.168.1.16` broadcast address
+-`192.168.1.2` SW1 management address
+-`192.168.1.3` SW2 management address 
+
+Hosts:
+-`192.168.1.4 - 192.168.1.14`
+
+
+
+
 ## Basic Switch and Router configurations 
 
 Configuring SW1_IT 
@@ -86,6 +100,15 @@ dns-server 8.8.8.8
 exit
 
 ```
+
+I configured the following IP addresses for Gig 0/1 and 0/2 interfaces: 
+-`192.168.1.14`
+-`192.168.1.13`
+
+
+
+<img width="1268" height="268" alt="image" src="https://github.com/user-attachments/assets/d2036b5c-5cd8-4627-893a-82526347a07a" />
+
 
 
 ## VLANS 
