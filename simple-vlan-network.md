@@ -9,13 +9,13 @@ In this packet tracer project I create a simple LAN with 2 different VLANs `IT` 
 ## Addresses
 
 I use /28 mask which means I have 16 addresses and 14 IPs for hosts:
--`192.168.1.1` default gateway
--`192.168.1.16` broadcast address
--`192.168.1.2` SW1 management address
--`192.168.1.3` SW2 management address 
+- `192.168.1.1` default gateway
+- `192.168.1.16` broadcast address
+- `192.168.1.2` SW1 management address
+- `192.168.1.3` SW2 management address 
 
 Hosts:
--`192.168.1.4 - 192.168.1.14`
+- `192.168.1.4 - 192.168.1.14`
 
 
 
