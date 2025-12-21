@@ -164,6 +164,23 @@ Same principles were done for R1 and SW3 Links connecting to eachother.
 <img width="1274" height="288" alt="image" src="https://github.com/user-attachments/assets/840a190d-2195-44c7-901e-2e4b57362c67" />
 
 
+## Router sub-interfaces 
+
+Next I configured router sub-intercaes without these the router does not know where to route packets from different VLANs.
+
+```
+
+interface gigabitEthernet0/2.10
+encapsulation dot1Q 10
+ip address 192.168.10.1 255.255.255.0
+
+interface gigabitEthernet0/2.20
+encapsulation dot1Q 20
+ip address 192.168.20.1 255.255.255.0
+
+interface gigabitEthernet0/2
+no shutdown
+```
 
 ## Switch Security 
 
