@@ -20,6 +20,16 @@ I use /28 mask which means I have 16 addresses and 14 IPs for hosts:
 Hosts:
 - `192.168.1.5 - 192.168.1.13`
 
+IT
+- PC1 192.168.1.5 
+- PC2 192.168.1.6
+- PC3 192.168.1.7
+
+Marketing
+- PC1 192.168.1.8
+- PC2 192.168.1.9
+- PC3 192.168.1.10
+  
 
 
 
