@@ -68,6 +68,10 @@ Next I configured SW3 between SW1 and SW2 and connected router to it. I copied S
 
 <img width="1272" height="212" alt="image" src="https://github.com/user-attachments/assets/7d6c8c8c-6211-43cd-ae1f-26a54431e87f" />
 
+I also configured trunk ports for interfaces FastEthernet 0/23 - 24. 
+
+<img width="1266" height="440" alt="image" src="https://github.com/user-attachments/assets/df739288-832b-49f2-9d7d-5e72bba416b9" />
+
 
 ## Router basic configuration 
 
