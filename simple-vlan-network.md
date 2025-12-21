@@ -15,9 +15,10 @@ I use /28 mask which means I have 16 addresses and 14 IPs for hosts:
 - `192.168.1.2` SW1 management address
 - `192.168.1.3` SW2 management address
 - `192.168.1.4` SW3 management address
+- `192.168.1.14` R1 G0/1 interface
 
 Hosts:
-- `192.168.1.5 - 192.168.1.14`
+- `192.168.1.5 - 192.168.1.13`
 
 
 
@@ -113,14 +114,11 @@ exit
 
 ```
 
-I configured the following IP addresses for Gig 0/1 and 0/2 interfaces: 
--`192.168.1.14`
--`192.168.1.13`
-
+I configured the following IP addresses for Gig 0/2 interface: 
+-`192.168.1.14 255.255.255.240`
 
 
 <img width="1268" height="268" alt="image" src="https://github.com/user-attachments/assets/d2036b5c-5cd8-4627-893a-82526347a07a" />
-
 
 
 ## VLANS 
@@ -144,9 +142,11 @@ Next I configured Marketing VLAN for SW2:
 
 ### Trunking ports for router on a stick method 
 
-Creating a router on a stick method is the best model for this network. It uses single link with trunking ports to deliver untagged traffic betwreen router and swtiches. I configured both SW1 and SW2 interfaces witg the following commands in both ends of the links:
+Creating a router on a stick method is the best model for this network. It uses single link with trunking ports to deliver untagged traffic betwreen R1 and SW3. I configured both SW1 and SW2 interfaces with the following commands in both ends of the links connecting to SW3:
 -`switchport mode trunking`
 -`switchport nonegotiate`
+
+Same principles were done for R1 and SW3 Links connecting to eachother. 
 
 
 <img width="1264" height="262" alt="image" src="https://github.com/user-attachments/assets/954cb8bc-fd92-4e6e-8362-f9856c4e3b5e" />
