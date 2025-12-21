@@ -12,7 +12,7 @@ Configuring SW1_IT
 
 <img width="1396" height="1702" alt="image" src="https://github.com/user-attachments/assets/cdf09f8c-2737-485d-9d2f-058709c61ce1" />
 
-I used the following commands to create basic configuration for both of the switches, SW2_Marketing has different host name but other settings are the same. I copied the configuration to SW2 and changed the hostname.
+I used the following commands to create basic configuration for both of the switches, SW2_Marketing has different host name but other settings are the same. I copied the configuration to SW2 and changed hostname and VLAN 99 management IP address to `192.168.1.2`. Now I have configured both switches with basic configurations.
 
 ```
 SW configuration
@@ -47,7 +47,11 @@ Default gateway
 
 ip default gateway 192.168.1.1 
 ```
-## Implementing VLANs 
+## VLANS 
+
+In this part I create two VLANs for SW1 and SW2. The VLANs will be `IT` and `Marketing`. 
+
+
 
 
 
