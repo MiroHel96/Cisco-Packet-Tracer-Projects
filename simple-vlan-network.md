@@ -187,4 +187,21 @@ ip address 192.168.1.1 255.255.255.0 for default gateway
 
 ## Switch Security 
 
-Basic L2 security principles are to shutdown all unused ports and move them to blackhole vlan, use port-security, disable trunking in all access ports and so on.
+Basic L2 security principles are to shutdown all unused ports and move them to blackhole vlan, use port-security, disable trunking in all access ports and so on. I will create another packet tracer for this. 
+
+
+## Verify Connectivity 
+
+Ping test was not successfull in the beginning therefore I pinged wrown address on the same LAN, after notcing this I did ping for correct address and connectivity was successfull.
+
+Connection to other VLAN was not successfull, I had to trouble shoot it, I verified interfaces, VLANs and switchport configurations and the culprit seemed to be missing default gateway address. In this context it is the interface IP address configuration for R1 GigabitEthernet 0/2 interface. After fixing the issue, the ping test was successfull.  
+
+<img width="1276" height="1118" alt="image" src="https://github.com/user-attachments/assets/e15e1019-786e-4c91-b15a-aea083d86de1" />
+
+
+Successfull ping test 
+
+<img width="1256" height="920" alt="image" src="https://github.com/user-attachments/assets/0818bcbc-6f00-4ce1-bce3-1abfcfc8b4e7" />
+
+
+
