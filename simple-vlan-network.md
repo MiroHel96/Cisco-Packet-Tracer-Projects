@@ -15,7 +15,6 @@ I use /28 mask which means I have 16 addresses and 14 IPs for hosts:
 - `192.168.1.2` SW1 management address
 - `192.168.1.3` SW2 management address
 - `192.168.1.4` SW3 management address
-- `192.168.1.14` R1 G0/1 interface
 
 Hosts:
 - `192.168.1.5 - 192.168.1.13`
@@ -124,8 +123,6 @@ exit
 
 ```
 
-I configured the following IP addresses for Gig 0/2 interface: 
--`192.168.1.14 255.255.255.240`
 
 
 <img width="1268" height="268" alt="image" src="https://github.com/user-attachments/assets/d2036b5c-5cd8-4627-893a-82526347a07a" />
