@@ -20,15 +20,17 @@ Hosts:
 - `192.168.1.5 - 192.168.1.13`
 
 IT
-- PC1 192.168.1.5 
-- PC2 192.168.1.6
-- PC3 192.168.1.7
+- PC1 192.168.10.5 
+- PC2 192.168.10.6
+- PC3 192.168.10.7
 
 Marketing
-- PC1 192.168.1.8
-- PC2 192.168.1.9
-- PC3 192.168.1.10
-  
+- PC1 192.168.20.8
+- PC2 192.168.20.9
+- PC3 192.168.20.10
+
+Router G0/2 interface - default gateway
+-`192.168.1.1 255.255.255.0`
 
 
 
@@ -177,7 +179,11 @@ ip address 192.168.20.1 255.255.255.0
 
 interface gigabitEthernet0/2
 no shutdown
+ip address 192.168.1.1 255.255.255.0 for default gateway
+
 ```
+
+
 
 ## Switch Security 
 
